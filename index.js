@@ -17,7 +17,7 @@ function changeFeaturedDrink(){
    featuredDrink = 'The java Shake';
     
 } 
-addBurger()
-changeFeaturedDrink()
+addBurger();
+changeFeaturedDrink();
 console.log (burgers);
-console.log(featuredDrink)
+console.log(featuredDrink);
