@@ -8,6 +8,7 @@ function addBurger() {
     burgers.push(newBurger);
    
 }
+addBurger();
  if(true){
        const anotherNewBurger = 'Maple Bacon Burger';
         burgers.push(anotherNewBurger);
@@ -17,7 +18,7 @@ function changeFeaturedDrink(){
    featuredDrink = 'The java Shake';
     
 } 
-addBurger();
+
 changeFeaturedDrink();
 console.log (burgers);
 console.log(featuredDrink);
